@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-cards",
+  "version": "1.15.0",
+  "scripts": {
+    "start": "node ./bin/www",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
+  },
+  "dependencies": {
+    "card-generator": "^1.9.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "hbs": "^4.1.0",
+    "http-errors": "~1.7.3",
+    "morgan": "~1.9.1"
+  },
+  "description": "Infinite Number of Bootstrap Cards",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/bootstrap-cards.git"
+  },
+  "keywords": [],
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/bootstrap-cards/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/bootstrap-cards#readme"
+}
